@@ -1,1 +1,1 @@
-Este proyecto es para empezar a usar Git y Github
+Este proyecto es para empezar a usar Git y Githubx
