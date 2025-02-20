@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Hash';
+    src: url('assets/fonts/Plastic\ Beach.ttf') format('truetype'); /* Ajusta la ruta según tu estructura de carpetas */
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Hash', sans-serif;
+    font-size: 62px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Hash', sans-serif;
+    font-size: 62px;
+}
+
+p {
+    line-height: 0.2; /*Espaciado de los parrafos*/
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+li {
+margin: 0 .75rem;
+}
+
+a {
+    color: #a2cb5f;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Animación suave */
+}
+
+a:hover {
+    color: #c8e49a;
+    text-decoration: underline;
+}
+
+hr {
+    width: 85%;
+}
+
+body {
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /*color de los textos*/
+}
+
+.mainContainer {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: rgba(106, 31, 28, 0.75); /* Fond con 75% de opacidad */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subContainer {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: rgba(253, 116, 61, 0.75); /* Fond con 75% de opacidad */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid rgb(253, 116, 61);
+}
+
+.titleContainer {
+    width: 95%;
+    height: 70%;
+    background-color: #FF934F; /* Fond con 75% de opacidad */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: nowrap; /*Esta propiedad se añade por defecto a una caja flex así que está de más especificarla*/
+    align-items: center
+}
+
+.imageList {
+    flex-shrink: 0;
+    width: 300px;
+}
+
+.subContainer h2 {
+    align-self: flex-start;
+}
+
+.mainContainer h1 {
+    align-self: flex-start;
+}
