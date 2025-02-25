@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Hash';
-    src: url('assets/fonts/Plastic\ Beach.ttf') format('truetype'); /* Ajusta la ruta según tu estructura de carpetas */
+    src: url('../assets/fonts/Plastic\ Beach.ttf') format('truetype'); /* Ajusta la ruta según tu estructura de carpetas */
     font-weight: normal;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ hr {
 }
 
 body {
-    background-image: url('assets/images/background.jpg');
+    background-image: url('../assets/images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -67,7 +67,10 @@ body {
     background-color: rgba(106, 31, 28, 0.75); /* Fond con 75% de opacidad */
     display: flex;
     flex-direction: column;
+
+    /*
     align-items: center;
+    */
 }
 
 .subContainer {
@@ -95,8 +98,12 @@ body {
 }
 
 .imageContainer {
+    width: 50%;
+    height: 70%;
+    background-color: var(--colorSecundario);
     display: flex;
     flex-wrap: nowrap; /*Esta propiedad se añade por defecto a una caja flex así que está de más especificarla*/
+    border-radius: 10px;
     align-items: center
 }
 
@@ -110,7 +117,6 @@ body {
 
 .imageList {
     flex-shrink: 0;
-    width: 300px;
 }
 
 .subContainer h2 {
