@@ -6,6 +6,7 @@
     <title>Quien es 2-D?</title>
     <link rel="stylesheet" href="../../styles/que es gorillaz.css">
     <link rel="icon" href="../gorillaz.ico">
+    <script src="../../scripts/info page.js"></script>
 </head>
 <body>
     <header>
@@ -39,8 +40,7 @@
             <br><br>
             <h2>Inicios</h2>
             <hr>
-            <p>
-                Como se cuenta en la biografía oficial del grupo: "Rise Of The Ogre"; 
+            <p> 
                 Stuart Pot nació en el año 1978 en la modesta ciudad de Crawley, hijo 
                 de David (mecánico) y Rachel Pot (enfermera). Desde pequeño fue un 
                 muchacho alegre y bondadoso, con un gran fanatismo por la música y 
@@ -66,24 +66,26 @@
                 español). en homenaje a las dos desgracias que le dejó al joven.
             </p>
             <br><br>
-            <h2>Galeria</h2>
+            <h2>Galeria</h2> <!--Tabs con imagenes-->
             <hr>
-            <div class="tabs">
-                <div class="tab active" onclick="openTab('fase1')">Fase 1</div>
-                <div class="tab" onclick="openTab('fase1')">Fase 2</div>
-                <div class="tab" onclick="openTab('fase1')">Fase 3</div>
-            </div>
-
-            <div id="fase1" class="tab-content active">
-                <img src="../../assets/images/chars/fase 1/2d.jpg" alt="Fase 1">
-            </div>
-
-            <div id="fase2" class="tab-content">
-                <img src="../../assets/images/chars/fase 2/2d.png" alt="Fase 2">
-            </div>
-
-            <div id="fase3" class="tab-content">
-                <img src="../../assets/images/chars/fase 3/2d.png" alt="Fase 3">
+            <div class="tabs-container">
+                <div class="tabs">
+                    <div class="tab active" onclick="openTab('fase1', event)">Fase 1</div>
+                    <div class="tab" onclick="openTab('fase2', event)">Fase 2</div>
+                    <div class="tab" onclick="openTab('fase3', event)">Fase 3</div>
+                </div>
+    
+                <div id="fase1" class="tab-content active">
+                    <img src="../../assets/images/chars/fase 1/2d.jpg" alt="Fase 1">
+                </div>
+    
+                <div id="fase2" class="tab-content">
+                    <img src="../../assets/images/chars/fase 2/2d.png" alt="Fase 2">
+                </div>
+    
+                <div id="fase3" class="tab-content">
+                    <img src="../../assets/images/chars/fase 3/2d.png" alt="Fase 3">
+                </div>
             </div>
 
             <br><br>
@@ -136,7 +138,6 @@
                 </tr>
             </table>
         </div>
-
     </div>
 
     <footer>

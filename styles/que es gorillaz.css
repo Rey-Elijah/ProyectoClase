@@ -63,6 +63,13 @@ nav a{
 }
 /*HEADER HEADER HEADER HEADER HEADER*/
 
+.tabs-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
 .tabs {
     display: flex;
     cursor: pointer;
@@ -82,15 +89,22 @@ nav a{
     border-top: 2px solid rgba(173, 93, 173, 0.432);
 }
 
-.tab-content {
-    display: none;
-}
-
 .tab-content.active {
     display: block;
 }
 
-.ta
+.tab-content {
+    display: none;
+}
+
+.tab-content img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover; /*ajusta la imagen sin deformarla*/
+    border-radius: 10px;
+    display: block;
+    margin: auto; /*centra la imagen*/
+}
 
 .textContent {
     flex: 1 /*ocupa el espacio disponible*/;
