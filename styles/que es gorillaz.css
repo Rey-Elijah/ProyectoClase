@@ -63,6 +63,35 @@ nav a{
 }
 /*HEADER HEADER HEADER HEADER HEADER*/
 
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+}
+
+.tab.active {
+    background-color: rgba(173, 93, 173, 0.432);
+    border-top: 2px solid rgba(173, 93, 173, 0.432);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.ta
+
 .textContent {
     flex: 1 /*ocupa el espacio disponible*/;
     padding-right: 20px;
