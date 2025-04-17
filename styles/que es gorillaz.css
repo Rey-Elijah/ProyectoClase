@@ -65,7 +65,7 @@ nav a{
 
 .tabs-container {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
     max-width: 500px;
 }
@@ -77,16 +77,21 @@ nav a{
 }
 
 .tab {
-    padding: 10px 20px;
+    padding: 20px 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
     border-bottom: none;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-right: 5px;
+}
+
+.tab:hover {
+    background-color: rgba(173, 93, 173, 0.432);
+    transition: 0.3s;
 }
 
 .tab.active {
     background-color: rgba(173, 93, 173, 0.432);
-    border-top: 2px solid rgba(173, 93, 173, 0.432);
+    border-top: 4px solid rgba(173, 93, 173, 0.432);
 }
 
 .tab-content.active {
