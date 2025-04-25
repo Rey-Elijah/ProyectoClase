@@ -117,6 +117,14 @@ nav a{
     min-width: 280px; /*evita que se haga demaciado pequeño*/
 }
 
+.textContent li {
+    list-style-position: outside;
+    padding-left: 1.5em; /*deja espacio para la viñeta*/
+    text-indent: -1.5em; /*hace que la primera linea retroceda ese espacio, alineandola con las demas lineas*/
+}
+
+
+
 .album-title {
     font-family: regata;
     background-color: rgba(173, 93, 173, 0.432);   
