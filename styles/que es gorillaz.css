@@ -171,10 +171,13 @@ td {
     align-items: center;
 }
 
+td#photoBox {
+    justify-content: center; /* centra horizontalmente */
+}
+
 td img {
     max-height: 200px;
     border-radius: 5px;
-    margin-left: 60px;
 }
 
 hr {
@@ -189,7 +192,7 @@ div#general {
     align-items: flex-start;
     max-width: 1200px;
     margin: 50px auto;
-    background-color: rgba(32, 21, 44, 0.65); /* Fond con 65% de opacidad */
+    background-color: rgba(32, 21, 44, 0.75); /* Fond con 6 5% de opacidad */
     padding: 20px;
 }
 
