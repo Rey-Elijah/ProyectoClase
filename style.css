@@ -157,10 +157,11 @@ div#generalHeader {
 }
 
 .imageItem img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     margin-right: 20px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 @media (max-width:768px) {
