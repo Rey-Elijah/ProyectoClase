@@ -1,6 +1,6 @@
 @font-face {
     font-family: gorillaz;
-    src: url(../gorillazPage/assets/fonts/REGATA__.TTF);
+    src: url(./assets/fonts/REGATA__.TTF);
 }
 
 * {
@@ -80,7 +80,7 @@ nav a{
 }
 
 body {
-    background-image: url(../gorillazPage/assets/images/background\ main.jpg); /*imagen de fondo*/
+    background-image: url(./assets/images/background%20main.jpg); /*imagen de fondo*/
     background-size: 100% 100%;
     background-attachment: fixed;
     margin: 0;
@@ -96,7 +96,7 @@ div#albums {
 
 div#general {
     flex: 1;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     margin-top: 20px;
     max-width: 960px; /* Mantiene el ancho en pantallas grandes */
