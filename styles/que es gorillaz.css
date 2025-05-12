@@ -243,6 +243,10 @@ footer {
     justify-content: center;
 }
 
+.commentsBox {
+    margin-left: 20px;
+}
+
 .container {
     width: 90%;
 }

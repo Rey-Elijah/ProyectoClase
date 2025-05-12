@@ -188,6 +188,10 @@ div#generalHeader {
     }
 }
 
+.commentsBox {
+    margin-left: 20px;
+}
+
 /*
 div#loading {
     position: fixed;
