@@ -9,7 +9,7 @@ const PORT = 3000;
 //middleware
 app.use(bodyParser.json());
 
-//servir archivos estáticos desde la raíz del proyecto
+//servir archivos estáticos
 app.use(express.static(path.join(__dirname, '..')));
 
 //ruta principal
