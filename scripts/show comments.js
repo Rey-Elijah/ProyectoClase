@@ -3,7 +3,7 @@ const lista = document.getElementById('lista-comentarios');
 
 // Mostrar comentarios al cargar la página
 function cargarComentarios() {
-    const pagina = window.location.pathname;
+    const pagina = window.location.pathname; //nombre de ruta
     fetch(`/comentarios?pagina=${encodeURIComponent(pagina)}`)
     .then(res => res.json())
     .then(data => {

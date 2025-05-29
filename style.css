@@ -204,6 +204,11 @@ div#generalHeader {
     padding: 10px 40px;
 }
 
+.commentsBox h2 {
+    font-family: gorillaz;
+    margin-bottom: 10px;
+}
+
 #form-comentario input,
 #form-comentario textarea {
   width: 100%;
